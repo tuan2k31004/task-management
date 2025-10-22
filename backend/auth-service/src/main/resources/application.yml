@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: auth-service
+server:
+  port: 8001
+
+
+jwt:
+  secret: f+dq7xJyK9Vpz+jnJn/kFUVS1f7L5iKJvFH/hzO3n2I=
+  expirationMs: 300000 # Access token: 5p
+  refreshExpirationMs: 604800000 # Refresh token: 7 ngày
